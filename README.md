@@ -91,6 +91,8 @@
 
 - [x] Hiddern API检测
 
+- [x] MITRE支持
+
 - [ ] 火焰图支持
 
 - [ ] Xposed插件动态分析支持
