@@ -95,7 +95,7 @@
 
 - [ ] 火焰图支持
 
-- [ ] Xposed插件动态分析支持
+- [x] Xposed插件Hook点分析支持
 
 - [x] Golang开发的APP支持
 
