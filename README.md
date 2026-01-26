@@ -97,7 +97,7 @@
 
 - [x] XPosed插件Hook点分析支持(正在测试更多样本)
 
-- [ ] LSPosed插件Hook点分析支持
+- [x] LSPosed插件Hook点分析支持
 
 - [ ] Zygisk插件Hook点分析支持
 
