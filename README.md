@@ -69,7 +69,7 @@
 
 - [x] L2规则引擎
 
-- [ ] L3规则引擎（正在完善）
+- [x] L3规则引擎（正在完善）
 
 - [ ] L4规则引擎（正在完善）
 
@@ -99,9 +99,9 @@
 
 - [x] LSPosed插件Hook点分析支持
 
-- [ ] Zygisk插件Hook点分析支持
+- [x] Zygisk插件Hook点分析支持(部分支持，正在完善)
 
-- [ ] Native代码Hook点分析支持
+- [ ] Native代码Hook点分析支持(正在完善)
 
 - [ ] Native代码presets
 
