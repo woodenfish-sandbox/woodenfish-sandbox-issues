@@ -1,125 +1,79 @@
 # woodenfish-sandbox-issues
 
-木鱼安卓APP分析沙箱
+Technical issue tracker for the Woodenfish Android App Analysis Sandbox.
 
-**沙箱分析平台不开源**
+The sandbox analysis platform itself is not open source. This repository is used to collect, track, and document issues, feature status, and analysis output coverage related to the platform.
 
-这只是issue收集整理与解决的仓库
+Chinese documentation is available in [README-CN.md](README-CN.md).
 
-[木鱼安卓APP分析沙箱功能展示](https://mp.weixin.qq.com/s/TVZ0ZX2Um8tKjghPc-abAw)
+## Platform Scope
 
-## 沙箱功能
+The sandbox targets static, dynamic, and automated analysis workflows for Android application packages and related distribution formats.
 
-1. APK静态与动态分析
+Supported analysis areas:
 
-2. XAPK静态与动态分析
+1. APK static and dynamic analysis
+2. XAPK static and dynamic analysis
+3. Automated reverse engineering analysis
+4. Application network protocol analysis
+5. Application threat analysis
 
-3. 自动化逆向分析
+## Report Coverage
 
-4. APP网络协议分析
+- [x] Application basic information
+- [x] Application risk score
+- [x] Application certificate information
+- [x] Application summary
+- [x] Application permissions
+- [x] Application component information
+- [x] Third-party SDK and packer information
+- [x] Third-party SDK key extraction
+- [x] Java API call analysis
+- [x] System call analysis
+- [x] Runtime screenshots
+- [x] Native process execution flow graph
+- [x] Runtime behavior rules
+- [x] Application tags and identification
+- [x] Network request identification
+- [x] Threat indicator distribution for domains, email addresses, and mobile numbers
+- [x] Analysis environment packaging and deployment
+- [x] Linux Docker deployment support
+- [x] Themed analysis reports
+- [x] PDF report output
+- [x] HTML report output
+- [x] L1 rule engine
+- [x] L2 rule engine
+- [x] L3 rule engine, in progress
+- [ ] L4 rule engine, in progress
+- [ ] Unpacking support, in progress
+- [x] Privacy compliance detection rules, in progress
+- [x] Risk-control SDK identification and behavior analysis, in progress
+- [x] 32-bit application support
+- [x] Sample graph cloud feature
+- [x] Analysis environment ROM image generation for flashing
+- [x] Automated HTTPS traffic capture
+- [x] Flutter dynamic analysis support
+- [x] Hidden API detection
+- [x] MITRE detection support
+- [x] CVE detection support
+- [x] Identification for all OLLVM obfuscation types
+- [x] Xposed module hook point analysis, under broader sample testing
+- [x] LSPosed module hook point analysis
+- [x] Zygisk module hook point analysis, partially supported and in progress
+- [ ] Native code hook point analysis, in progress
+- [ ] Native code presets
+- [x] Golang application support
+- [x] C# application support, partial
+- [x] H5/Web application support, partial
+- [x] Network-wide scanning support, partial
+- [ ] Activity-name-to-screenshot mapping
+- [ ] Analysis environment device information modification and simulation, in progress
+- [ ] Flutter traffic capture support
+- [ ] Threat intelligence platform integration
+- [ ] Flame graph support
 
-5. APP威胁分析平台
+## Reference
 
+Feature demonstration article:
 
-## 沙箱报告
-
-- [x] APP基本信息
-
-- [x] APP风险打分
-
-- [x] APP证书信息
-
-- [x] APP概要信息
-
-- [x] APP权限
-
-- [x] APP组件信息
-
-- [x] APP第三方SDK与壳信息
-
-- [x] APP第三方SDK密钥提取
-
-- [x] JAVA API调用分析
-
-- [x] 系统调用分析
-
-- [x] 运行时截图
-
-- [x] Native进程执行流程图
-
-- [x] 运行时行为规则
-
-- [x] APP标签与识别
-
-- [x] 网络请求识别
-
-- [x] 威胁分析分布（domain, email, mobile）
-
-- [x] 分析环境打包与部署
-
-- [x] Linux Docker环境部署支持
-
-- [x] 分析报告支持主题样式
-
-- [x] 分析报告支持pdf
-
-- [x] 分析报告支持html
-
-- [x] L1规则引擎
-
-- [x] L2规则引擎
-
-- [x] L3规则引擎（正在完善）
-
-- [ ] L4规则引擎（正在完善）
-
-- [ ] 脱壳功能（正在完善）
-
-- [x] 隐私合规检测规则（正在完善）
-
-- [x] 风控SDK识别与行为分析（正在完善）
-
-- [x] 32位app支持
-
-- [x] 样本图云功能
-
-- [x] 分析环境支持制作ROM包刷机
-
-- [x] 自动抓HTTPS包
-
-- [x] Flutter动态分析支持
-
-- [x] Hiddern API检测
-
-- [x] MITRE检测支持
-
-- [x] CVE检测支持
-
-- [x] XPosed插件Hook点分析支持(正在测试更多样本)
-
-- [x] LSPosed插件Hook点分析支持
-
-- [x] Zygisk插件Hook点分析支持(部分支持，正在完善)
-
-- [ ] Native代码Hook点分析支持(正在完善)
-
-- [ ] Native代码presets
-
-- [x] Golang开发的APP支持
-
-- [x] C#开发的APP支持（目前部分）
-
-- [x] H5/Web开发的APP支持（目前部分）
-
-- [x] 网络地图炮（目前部分）
-
-- [ ] 活动名对应截图
-
-- [ ] 分析环境设备信息修改与模拟（正在完善）
-
-- [ ] Flutter抓包支持
-
-- [ ] 威胁情报平台对接
-
-- [ ] 火焰图支持
-
+https://mp.weixin.qq.com/s/TVZ0ZX2Um8tKjghPc-abAw
