@@ -68,6 +68,8 @@ Supported analysis areas:
 - [x] Network-wide scanning support, partial
 - [ ] Activity-name-to-screenshot mapping
 - [ ] Analysis environment device information modification and simulation, in progress
+- [x] KO trace analysis support, being integrated
+- [x] KPM trace analysis support, being integrated
 - [ ] Flutter traffic capture support
 - [ ] Threat intelligence platform integration
 - [ ] Flame graph support
