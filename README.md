@@ -63,13 +63,13 @@ Supported analysis areas:
 - [ ] Native code hook point analysis, in progress
 - [ ] Native code presets
 - [x] Golang application support
-- [x] C# application support, partial
-- [x] H5/Web application support, partial
-- [x] Network-wide scanning support, partial
+- [x] C# application support
+- [x] H5/Web application support
+- [x] Network-wide scanning support
 - [ ] Activity-name-to-screenshot mapping
 - [ ] Analysis environment device information modification and simulation, in progress
-- [x] KO trace analysis support, being integrated
-- [x] KPM trace analysis support, being integrated
+- [x] KO trace analysis support
+- [x] KPM trace analysis support
 - [ ] Flutter traffic capture support
 - [ ] Threat intelligence platform integration
 - [ ] Flame graph support
